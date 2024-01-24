@@ -23,18 +23,14 @@ The directory structure should look like this:
 ```
 awisaw
     |
-    src
-        |   |
+    index.js
+    
 
 ```
 
-* `api` : API Directory that contains `api.py` functions to call API requests
-* `data` : CSV for Model Training
-* `.github` : GitHub Directory for Documents about Trivix
-* `model` : Python Directory for Saved Model
-* `getdata.py` : This file get data and extract data to .data
-* `trivix.py` : This script runs the main code
-* `requirements.txt` : Necessary Dependecies
+* `index.js` : Main Express JS WebFrameWork
+* `.github` : GitHub Directory About Awisaw
+* `package.json` : Contains Necessary Dependecies
 
 ## 3. Installation
 
