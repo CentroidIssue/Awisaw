@@ -18,16 +18,6 @@ A win is a win, losers say whatever they say.
 
 ## 2. Structure
 
-The directory structure should look like this:
-
-```
-awisaw
-    |
-    index.js
-    
-
-```
-
 * `index.js` : Main Express JS WebFrameWork
 * `.github` : GitHub Directory About Awisaw
 * `package.json` : Contains Necessary Dependecies
@@ -35,52 +25,34 @@ awisaw
 ## 3. Installation
 
 ### Requirements
-Python3 or NodeJS
+NodeJS 6.14.11 or upper
+
+#### Linux/Ubuntu 22.04 Jammy
+```bash
+$ sudo apt install npm
+```
+#### Linux/Centos 8
+```bash
+$ sudo yum install npm
+```
 
 ### Getting Started
 ```bash
 $ git clone https://github.com/jaibtdou/Trivix.git
 ```
 
-Install python3.10
-```bash
-$ sudo apt update
-$ sudo apt-get install python3
-$ sudo apt-get install python3-pip
-```
 
-Install NodeJS
-```bash
-$ sudo apt update
-$ sudo apt-get install npm 
-```
-
-To run python3 virtual environment, first create .env folder and install required dependencies
-```bash
-$ sudo apt-get install python3.10-venv
-$ python3 -m venv .env
-$ source .env/bin/activate
-$ python3 -m pip install -r py/requirements.txt
-```
-
-How to download data
-In `py/getdata.py`, modified as follow:
-
-By default, the script collects data in the previous 30 days and export to a csv file, depending on which function the user calls
-
-Run the code:
-```bash
-source getdata.sh
-```
 
 ## 4. Usage
 
-Trivix use Python to run API requests directedly to Binance API service. Trivix also has Asynchronous API function to call APIs faster than normal requests.
-
-Here are examples of how to run the code. In Terminal, run:
-
+Run with debugger
 ```bash
-$ python trivix.py
+$ npm run debug
+```
+
+Run as deployment
+```bash
+$ npm run start
 ```
 
 ## 5. Contributing
@@ -89,7 +61,7 @@ If you're interested in contributing to Trivix, we welcome your input. Whether y
 
 ## 6. Code of conduct
 
-We want everyone who participates in Trivix to feel welcome and respected. To ensure that happens, we've established a code of conduct that outlines our expectations for behavior. You can read the full text of the code of conduct in the [Code of Conduct](CODE_OF_CONDUCT.md) file.
+We want everyone who participates in Awisaw to feel welcome and respected. To ensure that happens, we've established a code of conduct that outlines our expectations for behavior. You can read the full text of the code of conduct in the [Code of Conduct](CODE_OF_CONDUCT.md) file.
 
 ## 7. Funding
 
