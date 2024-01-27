@@ -1,12 +1,12 @@
-import MapScene from "./static/MapScene.js";
+import MapScene from "./static/js/MapScene.js";
 import Phaser from "phaser";
 
 export default class MyGame extends Phaser.Game {
     constructor() {
         const config = {
             type: Phaser.AUTO,
-            width: 800,
-            height: 600,
+            width: 512,
+            height: 512,
             backgroundColor: '#111',
             pixelArt: true,
             scene: [
