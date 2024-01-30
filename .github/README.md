@@ -18,7 +18,7 @@ A win is a win, losers say whatever they say.
 
 ## 2. Structure
 
-* `index.js` : Main Express JS WebFrameWork
+* `main.js` : Main ViteJS Framework
 * `.github` : GitHub Directory About Awisaw
 * `package.json` : Contains Necessary Dependecies
 
@@ -36,24 +36,28 @@ $ sudo apt install npm
 $ sudo yum install npm
 ```
 
-### Getting Started
+### Clone this repository then install necessary modules 
 ```bash
 $ git clone https://github.com/jaibtdou/Trivix.git
+$ npm i --save
 ```
-
-
 
 ## 4. Usage
+The default Vite module runs on port 5173, but I have configured so it runs on port 1234. 
 
-Run with debugger
+To run the code on localhost
 ```bash
-$ npm run debug
+$ npm run dev
 ```
 
-Run as deployment
-```bash
-$ npm run start
+If you see
 ```
+VITE v5.0.12  ready in 195 ms
+  ➜  Local:   http://localhost:1234/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+```
+That means you're correct
 
 ## 5. Contributing
 

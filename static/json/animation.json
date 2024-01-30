@@ -1,0 +1,54 @@
+{
+    "PLAYERS": {
+        "PinkMan": [
+            {
+                "key": "idle",
+                "spriteKey": "PinkManIdle",
+                "frameStart": 0,
+                "frameEnd": 10,
+                "frameRate": 6,
+                "repeat": -1
+            },
+            {
+                "key": "run",
+                "spriteKey": "PinkManRun",
+                "frameStart": 0,
+                "frameEnd": 10,
+                "frameRate": 22,
+                "repeat": -1
+            },
+            {
+                "key": "jump",
+                "spriteKey": "PinkManJump",
+                "frameStart": 0,
+                "frameEnd": 0,
+                "frameRate": 1,
+                "repeat": -1
+            },
+            {
+                "key": "fall",
+                "spriteKey": "PinkManFall",
+                "frameStart": 0,
+                "frameEnd": 0,
+                "frameRate": 1,
+                "repeat": -1
+            },
+            {
+                "key": "doubleJump",
+                "spriteKey": "PinkManDoubleJump",
+                "frameStart": 0,
+                "frameEnd": 5,
+                "frameRate": 12,
+                "repeat": -1
+            },
+            {
+                "key": "hit",
+                "spriteKey": "PinkManHit",
+                "frameStart": 0,
+                "frameEnd": 6,
+                "frameRate": 14,
+                "repeat": -1
+            }
+        ]
+    }
+}

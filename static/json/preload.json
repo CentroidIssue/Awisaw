@@ -1,0 +1,114 @@
+{
+    "image": {
+        "Background": [
+            {
+                "key": "Terrain",
+                "path": "assets/Free/Terrain/Terrain (16x16).png"
+            },
+            {
+                "key": "BackgroundBlue",
+                "path": "assets/Free/Backgrounds/Blue.png"
+            },
+            {
+                "key": "BackgroundBrown",
+                "path": "assets/Free/Backgrounds/Brown.png"
+            },
+            {
+                "key": "BackgroundGray",
+                "path": "assets/Free/Backgrounds/Gray.png"
+            },
+            {
+                "key": "BackgroundGreen",
+                "path": "assets/Free/Backgrounds/Green.png"
+            },
+            {
+                "key": "BackgroundPink",
+                "path": "assets/Free/Backgrounds/Pink.png"
+            },
+            {
+                "key": "BackgroundPurple",
+                "path": "assets/Free/Backgrounds/Purple.png"
+            },
+            {
+                "key": "BackgroundYellow",
+                "path": "assets/Free/Backgrounds/Yellow.png"
+            }
+        ]
+    },
+    "spritesheet": {
+        "Player": [
+            {
+                "key": "PinkManIdle",
+                "path": "assets/Free/Characters/Pink Man/Idle (32x32).png",
+                "config": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "key": "PinkManRun",
+                "path": "assets/Free/Characters/Pink Man/Run (32x32).png",
+                "config": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "key": "PinkManJump",
+                "path": "assets/Free/Characters/Pink Man/Jump (32x32).png",
+                "config": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "key": "PinkManDoubleJump",
+                "path": "assets/Free/Characters/Pink Man/Double Jump (32x32).png",
+                "config": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "key": "PinkManFall",
+                "path": "assets/Free/Characters/Pink Man/Fall (32x32).png",
+                "config": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "key": "PinkManWallJump",
+                "path": "assets/Free/Characters/Pink Man/Wall Jump (32x32).png",
+                "config": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "key": "PinkManHit",
+                "path": "assets/Free/Characters/Pink Man/Hit (32x32).png",
+                "config": {
+                    "frameWidth": 32,
+                    "frameHeight": 32
+                }
+            },
+            {
+                "key": "AnimationDisappear",
+                "path": "assets/Free/Characters/Animation/Disappear (96x96).png",
+                "config": {
+                    "frameWidth": 96,
+                    "frameHeight": 96
+                }
+            },
+            {
+                "key": "AnimationAppear",
+                "path": "assets/Free/Characters/Animation/Appear (96x96).png",
+                "config": {
+                    "frameWidth": 96,
+                    "frameHeight": 96
+                }
+            }
+        ]
+    }
+}
