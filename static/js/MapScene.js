@@ -45,7 +45,7 @@ export default class MapScene extends Phaser.Scene{
         
         // Create background
         this.background = {
-            number: this.randInt(0, Preload.image.Background.length),
+            number: this.randInt(1, Preload.image.Background.length),
             anim: {
                 "type": "move",
                 //-1 = no moving, 0 = up, 1 = right, 2 = down, 3 = left
@@ -88,7 +88,6 @@ export default class MapScene extends Phaser.Scene{
 
         //Setup camera
         
-        console.log(this.tileScale);
         this.cameras.main.setBounds(0, 0, this.map.widthInPixels, this.map.heightInPixels);
         this.physics.world.setBounds(0, 0, this.map.widthInPixels, this.map.heightInPixels);
         this.cameras.main.setZoom(this.cameraScale);

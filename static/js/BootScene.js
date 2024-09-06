@@ -13,7 +13,6 @@ export default class BootScene extends Phaser.Scene {
         Object.keys(Preload).forEach((type) => {
             const items = Preload[type];
             Object.keys(items).forEach((item) => {
-                console.log(item);
                 items[item].forEach((element) => {
                     this.load[type](element.key, element.path, element.config);
                 });

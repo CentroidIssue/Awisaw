@@ -75,7 +75,7 @@ export default class GameEvent{
             this.terrain_layer.setCollisionByProperty({collision_type: 1});
         }
         this.BackgroundAnimation();
-        this.debug_text.setText(this.jump + " " + this.double_jump + this.player.body.blocked.right.toString());
+        // this.debug_text.setText(this.jump + " " + this.double_jump + this.player.body.blocked.right.toString());
     }
 
     BackgroundAnimation(){
